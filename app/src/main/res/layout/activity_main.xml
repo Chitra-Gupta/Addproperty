@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+   android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Property Name"
+        android:padding="10sp"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Property Type"
+        android:padding="10sp"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Area"
+        android:padding="10sp"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/bedroom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Bedroom"
+        android:padding="10sp"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/bathroom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Bathroom"
+        android:padding="10sp"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/balcony"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Balcony"
+        android:padding="10sp"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/kitchen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Kitchen"
+        android:padding="10sp"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/parking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Parking"
+        android:padding="10sp"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/floor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Total Floors"
+        android:padding="10sp"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/furnishing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Furnishing"
+        android:padding="10sp"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/amenities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Amenities"
+        android:padding="10sp"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Address"
+        android:padding="10sp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Other Room"
+        android:padding="10sp"
+        android:inputType="text" />
+
+
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="50dp"
+        android:text="Submit"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorAccent"
+        android:onClick="sub"
+        android:id="@+id/button"
+        android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+
